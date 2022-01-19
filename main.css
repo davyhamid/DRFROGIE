@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+/* this is a comment */
+
+h1 {
+    color:red;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    display:flex;
+    font-family: fantasy;
+}
+
+h2{
+   color:orangered;
+   display:flex;
+   justify-content: center;
+   
+}
+
+body{
+background-image: url(strength.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ 
+.image{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+a{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.nav {
+    display:flex;
+    justify-content: space-around;
+    background-image: url(bomb.jpg);
+    background-position:center;
+
+}
+    
+.nav a{
+    color: rgb(217, 255, 0);
+    text-decoration:none;
+}
+.nav a:hover{
+    color: navy;
+}
+
+.center {
+    text-align: center;
+}
+
+
